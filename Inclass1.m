@@ -1,4 +1,6 @@
-% InClass1: some simple excerises to get started with MATLAB. Please complete by
+%AW: Looks good. 0.98/1. See my comment below. 
+
+%InClass1: some simple excerises to get started with MATLAB. Please complete by
 % the second class. Answer questions in comments and return assignment via
 % github
 %% numbers vs strings
@@ -82,6 +84,9 @@ fliplr(oneToTen)
 %The command fliplr means to flip an array left to right, whereas the newly generated array is arranged vertically, there is no left nor
 %right to it.
 flipud(rot90(oneToTen))
+
+%AW: Try this - it doesn't quite work. Either fliplr(rot90(oneToTen)) or flipud(oneToTen) will work. -0.02. 
+
 %% matrices, . operator
 
 %look at the matrix this defines. Note the other functions zeros, eye, and
